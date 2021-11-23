@@ -1,9 +1,11 @@
 page 50101 BookList
 {
     PageType = List;
+    Caption = 'Book List';
     SourceTable = Book;
     CardPageId = BookCard;
     Editable = false;
+    UsageCategory = Lists;
 
     layout
     {

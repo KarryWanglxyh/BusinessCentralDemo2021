@@ -1,8 +1,9 @@
 page 50100 BookCard
 {
+    Caption = 'Book Card';
     PageType = Card;
     SourceTable = Book;
-
+   
     layout
     {
         area(Content)

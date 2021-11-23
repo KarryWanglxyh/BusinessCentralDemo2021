@@ -4,5 +4,5 @@ permissionset 50100 BookPermissionSet
     Access=Public;
     Caption='Book';
     IncludedPermissionSets= "Language - Read";
-     Permissions = TableData Book = rm;
+    Permissions = TableData Book = rm;
 }

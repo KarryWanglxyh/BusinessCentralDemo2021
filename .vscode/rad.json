@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[{"Id":50102,"Kind":16,"Name":"ExtendNavigationPane","PackagePath":"/src/Page_RolecenterExt.al"}],"Modified":[{"Id":50100,"Kind":12,"Name":"BookCard","PackagePath":"/src/Page_BookCard.al"},{"Id":50101,"Kind":12,"Name":"BookList","PackagePath":"/src/Page_BookList.al"}],"Removed":[]}
