@@ -6,6 +6,7 @@ pageextension 50100 CustomerCardExtention extends "Customer Card"
         {
             field("Favorite Book No."; Rec."Favorite Book No.")
             {
+                Tooltip = 'Favorite Book No.';
                 ApplicationArea = All;
             }
         }

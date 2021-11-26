@@ -3,37 +3,42 @@ page 50100 BookCard
     Caption = 'Book Card';
     PageType = Card;
     SourceTable = Book;
-   
+
     layout
     {
         area(Content)
         {
             group(General)
             {
-                Caption='General';
+                Caption = 'General';
                 field("No."; Rec."No.")
                 {
-                    ApplicationArea=all;                                                                                               
+                    Tooltip = 'No.';
+                    ApplicationArea = all;
                 }
                 field(Title; Rec.Title)
                 {
-                    ApplicationArea=all;
+                    Tooltip = 'Title';
+                    ApplicationArea = all;
                 }
             }
             group(Details)
             {
-                Caption='Details';
+                Caption = 'Details';
                 field(Author; Rec.Author)
                 {
-                    ApplicationArea=all;
+                    Tooltip = 'Author';
+                    ApplicationArea = all;
                 }
-                 field(Hardcover; Rec.Hardcover)
+                field(Hardcover; Rec.Hardcover)
                 {
-                    ApplicationArea=all;
+                    Tooltip = 'Hardcover';
+                    ApplicationArea = all;
                 }
-                 field("Page Count"; Rec."Page Count")
+                field("Page Count"; Rec."Page Count")
                 {
-                    ApplicationArea=all;
+                    Tooltip = 'Page Count';
+                    ApplicationArea = all;
                 }
             }
         }

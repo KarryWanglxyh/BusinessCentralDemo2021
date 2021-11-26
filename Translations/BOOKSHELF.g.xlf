@@ -28,10 +28,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Book - Field Title - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2114396011 - Method 4136265901 - NamedType 4284865841" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2114396011 - Method 4136265901 - NamedType 207121262" size-unit="char" translate="yes" xml:space="preserve">
           <source>WHOA!! We have a new customer %1!!\\%2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CustomerCode - Method CelebrateCustomer - NamedType NEW_CUSTOMER</note>
+          <note from="Developer" annotates="general" priority="2">%1=MyCustomer; 2%=ExtraMessage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CustomerCode - Method CelebrateCustomer - NamedType NEW_CUSTOMER_Lbl</note>
         </trans-unit>
         <trans-unit id="Page 2756445967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book Card</source>
@@ -43,15 +43,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control Details - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 2842729223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control Author - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 3902073686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hardcover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control Hardcover - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 4112194308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control Page Count - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2756445967 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control General - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2756445967 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookCard - Control Title - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 685750181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 685750181 - Control 2842729223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Control Author - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 685750181 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 685750181 - Control 329424276 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BookList - Control Title - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3398327882 - Control 150268382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Favorite Book No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExtention - Control Favorite Book No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4283190010 - Action 3565700325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Create a new book</source>

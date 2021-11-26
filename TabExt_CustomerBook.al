@@ -10,7 +10,6 @@ tableextension 50100 CustomerBookExtension extends Customer
         }
     }
 
-
     trigger  OnAfterInsert()
     var
         CustomerCode: Codeunit CustomerCode;

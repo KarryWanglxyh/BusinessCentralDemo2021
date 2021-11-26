@@ -6,6 +6,7 @@ page 50101 BookList
     CardPageId = BookCard;
     Editable = false;
     UsageCategory = Lists;
+    ApplicationArea = All;
 
     layout
     {
@@ -15,14 +16,17 @@ page 50101 BookList
             {
                 field("No."; Rec."No.")
                 {
+                    Tooltip = 'No.';
                     ApplicationArea = All;
                 }
                 field(Title; Rec.Title)
                 {
+                    Tooltip = 'Title';
                     ApplicationArea = All;
                 }
                 field(Author; Rec.Author)
                 {
+                    Tooltip = 'Author';
                     ApplicationArea = All;
                 }
             }
